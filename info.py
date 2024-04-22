@@ -131,9 +131,6 @@ if HAS_SSL:
     URL = "https://{}/".format(FQDN)
 else:
     URL = "http://{}/".format(FQDN)
-REFERAL_COUNT = int(environ.get('REFERAL_COUNT', '20')) # number of referal count
-REFERAL_PREMEIUM_TIME = environ.get('REFERAL_PREMEIUM_TIME', '1 week')
-OWNER_USERNAME = environ.get('OWNER_USERNAME', 'BOT_OWNER26') # owner username without @
 
 
 PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '-1002062708890'))
