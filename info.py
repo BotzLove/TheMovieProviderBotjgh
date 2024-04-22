@@ -52,7 +52,7 @@ SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False)) # True if you want no results messages in Log Channel
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Hhijssj:aman@cluster0.sodslpc.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://aman727587:aman@cluster0.zipxhm5.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DATABASE_NAME = environ.get('DATABASE_NAME', "cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
@@ -62,7 +62,7 @@ REFERAL_PREMEIUM_TIME = environ.get('REFERAL_PREMEIUM_TIME', '1month')
 
 # Verify
 VERIFY = bool(environ.get('VERIFY', True)) # Verification On ( True ) / Off ( False )
-HOW_TO_VERIFY = environ.get('HOWTOVERIFY', 'https://t.me/+7xKrZ_vV2Z03ZDJl') # How to open tutorial link for verification
+HOW_TO_VERIFY = environ.get('HOWTOVERIFY', 'https://t.me/+Cw4OVGHWZpowNDBl') # How to open tutorial link for verification
 
 # Others
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'OMNIFLY.IN.NET')
@@ -72,9 +72,9 @@ DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in enviro
 MAX_B_TN = environ.get("MAX_B_TN", "5")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/')
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/') # Tutorial video link for opening shortlink website 
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+Cw4OVGHWZpowNDBl')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+Cw4OVGHWZpowNDBl')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/+Cw4OVGHWZpowNDBl') # Tutorial video link for opening shortlink website 
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 MSG_ALRT = environ.get('MSG_ALRT', 'ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : ʜᴘ')
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002062708890')) #Log channel id ( make sure bot is admin )
